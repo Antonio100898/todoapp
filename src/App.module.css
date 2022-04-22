@@ -1,0 +1,98 @@
+.app {
+  height: 650px;
+  width: 700px;
+  border-radius: 7px;
+}
+.header {
+  position: absolute;
+  top: 10px;
+  font-size: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_content {
+  height: 600px;
+  display: grid;
+}
+.wrapper {
+  background: linear-gradient(green, white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.todo {
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 330px;
+  border-radius: 7px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  contain: content;
+  display: flex;
+  align-items: center; 
+  border: black 1px solid; 
+}
+.todosWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 350px 1fr;
+  margin-top: 50px;
+}
+.add_button {
+  background-color: white;
+  color: rgb(9, 255, 0);
+  cursor: pointer;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border: black solid 1px;
+  font-weight: bold;
+  
+}
+.add_todo_field {
+  text-align: center;
+  padding: 10px;
+}
+.input {
+  padding: 5px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+}
+.delete_button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+  border: red 1px solid;
+}
+.v_green_button {
+  background-color: rgb(59, 170, 59);
+  color: white;
+  border: black solid 1px;
+}
+.defauld_v_button {
+  background-color: white;
+  border: black solid 1px;
+}
+.done {
+  text-decoration: line-through;
+}
+.filter {
+ float: right;
+}
+.select {
+  width: 120px;
+  padding: 5px;
+}
+.option {
+  padding: 5px;
+}
