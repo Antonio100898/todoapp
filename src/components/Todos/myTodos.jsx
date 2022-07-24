@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Todo from "./Todo";
 import styles from "./../../App.module.css";
 import AddBoxIcon from "@mui/icons-material/AddBox";

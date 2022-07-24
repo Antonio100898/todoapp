@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./../../App.module.css";
 import DeleteIcon from "@mui/icons-material/Delete";
 import DoneIcon from '@mui/icons-material/Done';
