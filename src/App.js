@@ -5,7 +5,7 @@ import MyTodos from "./components/Todos/myTodos";
 function App() {
   return (
     <div className={styles.wrapper}>
-         <MyTodos  />
+         <MyTodos />
     </div>
   );
 }
