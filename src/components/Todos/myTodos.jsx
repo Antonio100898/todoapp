@@ -75,7 +75,7 @@ const MyTodos = () => {
 
   const sx = {
     addButton: {
-      width: "10%",
+      width: "15%",
       backgroundColor: "white",
       cursor: "pointer",
       border: "grey 1px solid",
@@ -90,8 +90,8 @@ const MyTodos = () => {
         "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;",
       backgroundColor: 'purple',
       color: 'white',
-      padding: '',
       textTransform: 'none',
+      fontSize: '1em',
       '&:hover': {
         backgroundColor: 'purple'
       }
@@ -105,7 +105,7 @@ const MyTodos = () => {
       <div className={styles.box_content}>
         <div className={styles.add_todo_field}>
           <input
-            maxLength={30}
+            maxLength={24}
             placeholder="Add your new todo"
             className={styles.input}
             value={todo}
@@ -119,7 +119,7 @@ const MyTodos = () => {
         <div className={styles.filter}>
           <p>Filter by: </p>
           <select className={styles.select} onChange={statusHandler}>
-            <option className={styles.option} value={"all"}>
+            <option value={"all"}>
               all
             </option>
             <option value={"completed"}>completed</option>
